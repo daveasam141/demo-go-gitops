@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: image-registry.openshift-image-registry.svc:5000/demo-cicd/demo-app:latest
+        image: image-registry.openshift-image-registry.svc:5000/demo-cicd/demo--go-app:latest
         ports:
         - containerPort: 8080
         env:
